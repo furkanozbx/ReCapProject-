@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zklaw2yGugWh1xRTqkMsPwXTdnM24MVpXM3AVamCUbvtKwZ7PShh7AmIRPD1Zmp414lw+tgnh4T+YosfS1NLvQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\furka\\source\\repos\\ReCapProject\\DataAccess\\DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\furka\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\furka\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
