@@ -15,30 +15,19 @@ namespace Business.Concrete
             this._carDal = carDal;
         }
 
-
-        public void Add(Car entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(Car entity)
-        {
-            throw new NotImplementedException();
-        }
-
         public List<Car> GetAll()
         {
             return _carDal.GetAll();
         }
 
-        public Car GetById(int Id)
+        public List<Car> GetCarsByBrandId(int Id)
         {
-            throw new NotImplementedException();
+            return _carDal.GetAll(p => p.BrandId == Id);
         }
 
-        public void Update(Car entity)
+        public List<Car> GetCarsByColorId(int Id)
         {
-            throw new NotImplementedException();
+            return _carDal.GetAll(p => p.ColorId == Id);
         }
     }
 }
