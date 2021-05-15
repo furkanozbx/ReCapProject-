@@ -6,12 +6,8 @@ using System.Text;
 
 namespace Business.Abstract
 {
-    public interface IColorService
+    public interface IColorService: IServiceBase<Color>
     {
-        IResult Insert(Color color);
-        IResult Update(Color color);
-        IResult Delete(Color color);
-        IDataResult<List<Color>> GetAll();
-        IDataResult<Color> GetById(int ColorId);
+
     }
 }
